@@ -1,14 +1,14 @@
 {
-  "name": "bitcore-build-monacocoincoin",
+  "name": "bitcore-build-monacocoin",
   "version": "0.8.0",
-  "description": "A helper for common tasks to build bitcore-monacocoincoin modules'",
+  "description": "A helper for common tasks to build bitcore-monacocoin modules'",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/monacocoin-net/bitcore-build-monacocoincoin"
+    "url": "git://github.com/monacocoin-net/bitcore-build-monacocoin"
   },
   "keywords": [
     "bitcore"
@@ -41,9 +41,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/monacocoin-net/bitcore-build-monacocoincoin/issues"
+    "url": "https://github.com/monacocoin-net/bitcore-build-monacocoin/issues"
   },
-  "homepage": "https://github.com/monacocoin-net/bitcore-build-monacocoincoin",
+  "homepage": "https://github.com/monacocoin-net/bitcore-build-monacocoin",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",
@@ -64,7 +64,7 @@
     "karma-detect-browsers": "^2.2.4",
     "karma-firefox-launcher": "^1.0.1",
     "karma-mocha": "^1.3.0",
-    "lomonacocoincoin": "^4.17.4",
+    "lomonacocoin": "^4.17.4",
     "mocha": "^3.2.0",
     "plato": "^1.7.0",
     "run-sequence": "^1.2.2",

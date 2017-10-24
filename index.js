@@ -59,7 +59,7 @@ function startGulp(name, opts) {
   var tests = ['test/**/*.js'];
   var alljs = files.concat(tests);
 
-  var buildPath = './node_modules/bitcore-build-monacocoincoin/';
+  var buildPath = './node_modules/bitcore-build-monacocoin/';
   var buildModulesPath = buildPath + 'node_modules/';
   var buildBinPath = buildPath + 'node_modules/.bin/';
 
@@ -129,9 +129,9 @@ function startGulp(name, opts) {
     var browserifyCommand;
 
     if (name !== 'lib') {
-      browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external bitcore-lib-monacocoincoin -o ' + fullname + '.js';
+      browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external bitcore-lib-monacocoin -o ' + fullname + '.js';
     } else {
-      browserifyCommand = browserifyPath + ' --require ./index.js:bitcore-lib-monacocoincoin -o bitcore-lib-monacocoincoin.js';
+      browserifyCommand = browserifyPath + ' --require ./index.js:bitcore-lib-monacocoin -o bitcore-lib-monacocoin.js';
     }
 
     gulp.task('browser:uncompressed', shell.task([
