@@ -1,6 +1,6 @@
 {
   "name": "bitcore-build-monacocoin",
-  "version": "0.8.1.1",
+  "version": "0.8.2",
   "description": "A helper for common tasks to build bitcore-monacocoin modules'",
   "main": "index.js",
   "scripts": {
