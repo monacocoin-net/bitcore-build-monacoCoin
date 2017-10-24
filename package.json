@@ -1,6 +1,6 @@
 {
   "name": "bitcore-build-monacocoin",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "A helper for common tasks to build bitcore-monacocoin modules'",
   "main": "index.js",
   "scripts": {
@@ -64,7 +64,7 @@
     "karma-detect-browsers": "^2.2.4",
     "karma-firefox-launcher": "^1.0.1",
     "karma-mocha": "^1.3.0",
-    "monacocoin": "^4.17.4",
+    "lodash": "^4.17.4",
     "mocha": "^3.2.0",
     "plato": "^1.7.0",
     "run-sequence": "^1.2.2",
