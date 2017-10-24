@@ -1,4 +1,4 @@
-/**
+monacocoin/**
  * @file gulpfile.js
  *
  * Defines tasks that can be run on gulp.
